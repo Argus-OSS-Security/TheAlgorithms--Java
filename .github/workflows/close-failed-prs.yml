@@ -1,10 +1,11 @@
 name: Close stale PRs with failed workflows
 
-on:
-  schedule:
-    - cron: '0 3 * * *' # runs daily at 03:00 UTC
-  workflow_dispatch:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   schedule:
+#     - cron: '0 3 * * *' # runs daily at 03:00 UTC
+#   workflow_dispatch:
+# 
 permissions:
   contents: read
   issues: write

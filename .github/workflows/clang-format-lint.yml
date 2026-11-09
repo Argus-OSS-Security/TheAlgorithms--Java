@@ -1,8 +1,9 @@
 name: Clang format linter
-on:
-  push: {}
-  pull_request: {}
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push: {}
+#   pull_request: {}
+# 
 permissions:
   contents: read
 
